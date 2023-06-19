@@ -6580,6 +6580,8 @@ havoc_stage:
 
       havoc_queued = queued_paths;
 
+      break; // Break out of the for loop if find new path, this change is for our experiment only.
+
     }
   }
 
