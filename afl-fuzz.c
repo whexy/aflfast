@@ -4826,7 +4826,7 @@ static u32 calculate_score(struct queue_entry* q) {
 
   if (perf_score > HAVOC_MAX_MULT * 100) perf_score = HAVOC_MAX_MULT * 100;
 
-  perf_score = (perf_score / 100 + 1) * 100; // only for the sake of experiment
+  perf_score = (perf_score / 10 + 1) * 10; // only for the sake of experiment
 
   return perf_score;
 
